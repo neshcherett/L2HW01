@@ -9,10 +9,10 @@ public class Task1 {
         - если число кратно и 3 и 5 то вместо него вывести HelloWorld
         */
 
-        PrintNumbers();
+        printNumbers();
     }
 
-    private static void PrintNumbers() {
+    private static void printNumbers() {
         for (int i = 1; i < 101; i++) {
             if (i % 3 == 0 & i % 5 == 0) {
                 System.out.print("HelloWorld ");
